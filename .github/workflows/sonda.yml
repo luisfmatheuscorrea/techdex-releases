@@ -1,7 +1,0 @@
-name: Sonda
-on: workflow_dispatch
-jobs:
-  sonda:
-    runs-on: ubuntu-latest
-    steps:
-      - run: uname -a
